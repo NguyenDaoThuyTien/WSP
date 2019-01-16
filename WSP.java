@@ -22,12 +22,12 @@ public class WSP {
 		
 		//Create periods
 		periods[0] = new Period(0, 0, 3, 20);
-		periods[1] = new Period(0, 3, 6, 16);
-		periods[2] = new Period(0, 6, 9, 25);
-		periods[3] = new Period(0, 9, 12, 40);
-		periods[4] = new Period(0, 12, 16, 60);
-		periods[5] = new Period(0, 16, 20, 30);
-		periods[6] = new Period(0, 20, 24, 25);
+		periods[1] = new Period(1, 3, 6, 16);
+		periods[2] = new Period(2, 6, 9, 25);
+		periods[3] = new Period(3, 9, 12, 40);
+		periods[4] = new Period(4, 12, 16, 60);
+		periods[5] = new Period(5, 16, 20, 30);
+		periods[6] = new Period(6, 20, 24, 25);
 		
 		// Initial GA
 		GeneticAlgorithm ga = new GeneticAlgorithm(100, 0.001, 0.9, 2, 5);
